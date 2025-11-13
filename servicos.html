@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Serviços • Chaveiro Rápido & Seguro 24h</title>
+  <meta name="description"
+    content="Lista de serviços: cópia de chaves, abertura de portas, troca de fechaduras e assistência 24h.">
+
+  <!-- Bootstrap + AOS + Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    /* Cards e bordas */
+    .card {
+      border: 1px solid rgba(212, 175, 55, 0.2);
+      transition: all 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    /* Ícones dourados */
+    .card i {
+      color: #d4af37 !important;
+    }
+
+    /* Botões */
+    .btn-primary {
+      background-color: #d4af37 !important;
+      border: none !important;
+      color: #000 !important;
+      font-weight: 600;
+      transition: all 0.3s ease;
+    }
+
+    .btn-primary:hover {
+      background-color: #c19c2c !important;
+      transform: scale(1.05);
+    }
+
+    /* Cabeçalho */
+    .bg-light {
+      background-color: #f8f8f8 !important;
+    }
+
+    /* Footer */
+    footer {
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    /* Destaque dourado nos títulos */
+    .lead {
+      color: #555;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-gold" href="index.html">
+        <i class="bi bi-key-fill"></i> Chaveiro Rápido & Seguro 24h
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+          <li class="nav-item"><a class="nav-link active" href="servicos.html">Serviços</a></li>
+          <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="py-5 text-center bg-light border-bottom" data-aos="fade-down">
+    <div class="container">
+      <h1 class="fw-bold mb-3">Serviços Profissionais de Chaveiro</h1>
+      <p class="lead">Atendimento rápido, confiável e com garantia — 24 horas por dia.</p>
+    </div>
+  </section>
+
+  <!-- Lista de Serviços -->
+  <main class="py-5">
+    <div class="container" data-aos="fade-up">
+      <h2 class="mb-4 text-center">Nossos Serviços</h2>
+
+      <div class="row g-4">
+        <!-- Serviço 1 -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-right">
+          <article class="card shadow-sm p-4 h-100 text-center border-0">
+            <i class="bi bi-key-fill display-5 mb-3"></i>
+            <h4>Cópia de Chaves</h4>
+            <p>Duplicamos chaves residenciais, comerciais e automotivas com máxima precisão.</p>
+            <ul class="list-unstyled small">
+              <li>Chaves comuns e tetra</li>
+              <li>Codificadas (sob consulta)</li>
+            </ul>
+          </article>
+        </div>
+
+        <!-- Serviço 2 -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up">
+          <article class="card shadow-sm p-4 h-100 text-center border-0">
+            <i class="bi bi-door-open-fill display-5 mb-3"></i>
+            <h4>Abertura de Portas</h4>
+            <p>Serviço emergencial sem danos — rápido e eficiente para todos os tipos de portas.</p>
+            <ul class="list-unstyled small">
+              <li>Residenciais e comerciais</li>
+              <li>Veículos (dependendo do modelo)</li>
+            </ul>
+          </article>
+        </div>
+
+        <!-- Serviço 3 -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-left">
+          <article class="card shadow-sm p-4 h-100 text-center border-0">
+            <i class="bi bi-lock-fill display-5 mb-3"></i>
+            <h4>Troca de Fechaduras</h4>
+            <p>Instalação e substituição de fechaduras modernas e seguras.</p>
+            <ul class="list-unstyled small">
+              <li>Cilindro europeu</li>
+              <li>Modelos de alta segurança</li>
+            </ul>
+          </article>
+        </div>
+
+        <!-- Serviço 4 -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-right">
+          <article class="card shadow-sm p-4 h-100 text-center border-0">
+            <i class="bi bi-tools display-5 mb-3"></i>
+            <h4>Manutenção e Instalação</h4>
+            <p>Revisão e ajuste de fechaduras, dobradiças e sistemas de segurança.</p>
+          </article>
+        </div>
+
+        <!-- Serviço 5 -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up">
+          <article class="card shadow-sm p-4 h-100 text-center border-0">
+            <i class="bi bi-shield-check display-5 mb-3"></i>
+            <h4>Consultoria de Segurança</h4>
+            <p>Avaliamos seu imóvel e recomendamos soluções sob medida para maior proteção.</p>
+          </article>
+        </div>
+
+        <!-- Serviço 6 -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-left">
+          <article class="card shadow-sm p-4 h-100 text-center border-0">
+            <i class="bi bi-car-front-fill display-5 mb-3"></i>
+            <h4>Chaveiro Automotivo</h4>
+            <p>Programação e cópia de chaves automotivas (mediante verificação).</p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer bg-dark text-light py-4">
+    <div class="container text-center">
+      <p>&copy; 2025 Chaveiro Rápido & Seguro 24h • Desenvolvido por Ester Costa</p>
+    </div>
+  </footer>
+
+
+  <a href="#" class="whatsapp-float" target="_blank" aria-label="WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>AOS.init();</script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
